@@ -1,0 +1,212 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-weight: 450;
+	color: black;
+}
+h1 {
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26.3999996185303px;
+	text-align: center;
+}
+h3 {
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 15.3999996185303px;
+}
+p {
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+blockquote {
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 30px;
+}
+pre {
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 18.5714302062988px;
+}
+
+/* Navbar */
+header {
+	position: fixed;
+	height: 35px;
+	top:0;
+	left:0;
+	width: 100%;
+	background-color: white; 
+	font-size: 14px; 
+	padding-top: .3	%
+}
+
+header a{
+	text-decoration: none; 
+}
+
+#header-title {
+	float: left;
+	padding-top: 3px;
+	margin-bottom: 0px;
+	font-size: 24px; 
+}
+
+#header-nav {
+	float: right;
+}
+
+#header-nav li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#header-nav li a {
+	display: block;
+	padding: 9px;
+	color: black;
+}
+
+/* Top Section Styling */
+
+#top {
+  text-align: center;
+  background-color: #cbd0d2;
+  padding-top: 130px;
+  padding-bottom: 90px;
+  background: url('../images/Rainbow.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#top h1 {
+	color: black;
+	font-weight: 800;
+}
+
+#top h2 {
+	color: #0000FF;
+	font-weight: 200;
+}
+
+#top fieldset {
+	width: 400px;
+	margin: 20px auto;
+}
+
+#top input [type="text"] {
+	padding:10px;
+	width: 70%;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+#top input [type ="text"]:focus{
+	outline:0;
+	border:1px soild red;
+}
+
+#top input [type="submit"] {
+	padding: 10px;
+	background-color: #2ec371;
+	border: 1px solid #2ec371;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+/* Middle Section */
+
+#logo{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+/* Uni */
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+/* Header for Subsections*/
+#subsection_header{
+	background: url('../images/Rainbow.jpg') no-repeat center center;
+  	background-size: cover;
+}
+
+section {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* What we can do for you */
+#services {
+	background-color: #F0FFFF;
+	padding: 5px;
+	width: 100%;
+}
+
+#one-half {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#services img {
+	border-radius: 2%;
+	width: 80%;
+	text-align: center;
+}
+
+#services h1 {
+	padding-bottom: 10px; 
+}
+#services p {
+	text-align: center;
+}
+
+#btn {
+	background-color: #0099CC;
+	border: 1px solid #blue;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #FFFF99;
+}
+
+#btn:hover {
+	background-color: #e67e22;
+}
+
+
+
+main {
+	padding-top: 10px; 
+}
+
+main p {
+	text-align: center;
+}
+
+container {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
